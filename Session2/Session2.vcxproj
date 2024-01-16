@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{36DCC788-473E-4C79-BD62-91D3E0A9081E}</ProjectGuid>
+    <ProjectGuid>{176331D6-E9ED-4027-822A-64040B88DA87}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Session1</RootNamespace>
+    <RootNamespace>Session2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -154,19 +154,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FahrenheitCelciusConverter.cpp" />
-    <ClCompile Include="IStudentBase.cpp" />
-    <ClCompile Include="RandomNumberGame.cpp" />
-    <ClCompile Include="Session1.cpp" />
-    <ClCompile Include="StudentBase.cpp" />
-    <ClCompile Include="StudentBaseDynamic.cpp" />
+    <ClCompile Include="BankAccount.cpp" />
+    <ClCompile Include="Bow.cpp" />
+    <ClCompile Include="GameCharacter.cpp" />
+    <ClCompile Include="GameInventory.cpp" />
+    <ClCompile Include="InventoryItem.cpp" />
+    <ClCompile Include="Person.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Session2.cpp" />
+    <ClCompile Include="Sword.cpp" />
+    <ClCompile Include="Warrior.cpp" />
+    <ClCompile Include="Weapon.cpp" />
+    <ClCompile Include="Wizard.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FahrenheitCelciusConverter.h" />
-    <ClInclude Include="IStudentBase.h" />
-    <ClInclude Include="RandomNumberGame.h" />
-    <ClInclude Include="StudentBase.h" />
-    <ClInclude Include="StudentBaseDynamic.h" />
+    <ClInclude Include="BankAccount.h" />
+    <ClInclude Include="Bow.h" />
+    <ClInclude Include="GameCharacter.h" />
+    <ClInclude Include="GameInventory.h" />
+    <ClInclude Include="InventoryItem.h" />
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Sword.h" />
+    <ClInclude Include="Warrior.h" />
+    <ClInclude Include="Weapon.h" />
+    <ClInclude Include="Wizard.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

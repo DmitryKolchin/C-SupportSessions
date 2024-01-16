@@ -3,34 +3,18 @@
 #include <map>
 #include <string>
 
-struct Student
-{
-    std::string FirstName;
-    std::string LastName;
-    unsigned int ID;
-
-    void DisplayInfo()
-    {
-        std::cout << "Full Name: " << FirstName << " " << LastName << ", ID = " << ID << "\n";
-    }
-
-    Student() : FirstName("John"), LastName("Doe"), ID(0) {}
-    Student(std::string&& FirstName, std::string&& LastName, const unsigned int ID) : FirstName(FirstName), LastName(LastName), ID(ID) {}
+#include "IStudentBase.h"
 
 
-};
-
-class StudentBase
+class StudentBase : public IStudentBase
 {
 public:
     StudentBase() = default;
-    void AddStudent(Student Student);
-    void RemoveStudent(int StudentID);
 
-    bool GetStudentByID(int StudentID, Student& OutStudent);
+    void AddStudent(Student Student) override;
+    void RemoveStudentByID(int StudentID) override;
 
-    void DisplayStudentInfoByID(int StudentID);
-
+    bool GetStudentByID(int StudentID, Student& OutStudent) override;
 
 
 private:

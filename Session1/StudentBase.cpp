@@ -7,7 +7,7 @@ void StudentBase::AddStudent(Student Student)
 
 }
 
-void StudentBase::RemoveStudent(int StudentID)
+void StudentBase::RemoveStudentByID(int StudentID)
 {
     Students.erase(StudentID);
 }
@@ -23,17 +23,4 @@ bool StudentBase::GetStudentByID(int StudentID, Student& OutStudent)
     return false;
 }
 
-void StudentBase::DisplayStudentInfoByID(int StudentID)
-{
-    Student tmp;
-    bool SearchResult = GetStudentByID(StudentID, tmp);
-    if (SearchResult)
-    {
-        tmp.DisplayInfo();
-    }
-    else
-    {
-        std::cout << "No such student\n";
-    }
-}
 
