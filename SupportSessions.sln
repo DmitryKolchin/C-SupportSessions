@@ -6,6 +6,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Session2", "Session2\Sessio
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Session3", "Session3\Session3.vcxproj", "{A8736DF8-C347-4E22-8273-A8A622511032}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Session4", "Session4\Session4.vcxproj", "{25E0D9D0-2474-445E-91F1-78C894940FDE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -38,5 +40,13 @@ Global
 		{A8736DF8-C347-4E22-8273-A8A622511032}.Release|Win32.Build.0 = Release|Win32
 		{A8736DF8-C347-4E22-8273-A8A622511032}.Release|x64.ActiveCfg = Release|x64
 		{A8736DF8-C347-4E22-8273-A8A622511032}.Release|x64.Build.0 = Release|x64
+		{25E0D9D0-2474-445E-91F1-78C894940FDE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{25E0D9D0-2474-445E-91F1-78C894940FDE}.Debug|Win32.Build.0 = Debug|Win32
+		{25E0D9D0-2474-445E-91F1-78C894940FDE}.Debug|x64.ActiveCfg = Debug|x64
+		{25E0D9D0-2474-445E-91F1-78C894940FDE}.Debug|x64.Build.0 = Debug|x64
+		{25E0D9D0-2474-445E-91F1-78C894940FDE}.Release|Win32.ActiveCfg = Release|Win32
+		{25E0D9D0-2474-445E-91F1-78C894940FDE}.Release|Win32.Build.0 = Release|Win32
+		{25E0D9D0-2474-445E-91F1-78C894940FDE}.Release|x64.ActiveCfg = Release|x64
+		{25E0D9D0-2474-445E-91F1-78C894940FDE}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal
